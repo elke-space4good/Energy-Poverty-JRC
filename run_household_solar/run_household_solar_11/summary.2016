@@ -1,0 +1,68 @@
+
+        Appliance          Consumption
+--------------------------------------
+         Computer          533.887 kWh
+               TV          444.838 kWh
+           Fridge          482.968 kWh
+            Light          290.238 kWh
+     Tumble-Dryer          407.156 kWh
+ Circulation-Pump          249.445 kWh
+       Dishwasher          144.837 kWh
+  Washing-Machine          138.767 kWh
+           Vacuum           24.672 kWh
+--------------------------------------
+            Total         2716.809 kWh
+
+
+Photovoltaic energy
+--------------------------------------
+             Used          931.026 kWh
+Fed into the grid         1826.953 kWh
+--------------------------------------
+            Total         2757.979 kWh
+
+
+Solar thermal energy
+--------------------------------------
+      Used for SH            0.000 kWh
+     Used for DHW            0.000 kWh
+           Unused            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Space Heating
+--------------------------------------
+              Oil            0.000 kWh
+              Gas            0.000 kWh
+      District H.            0.000 kWh
+        Heat-Pump            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Domestic Hot Water
+--------------------------------------
+              Oil            0.000 kWh
+              Gas            0.000 kWh
+      District H.            0.000 kWh
+        Heat-Pump            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Cooking
+--------------------------------------
+        Gas Stove            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Overall Consumption
+--------------------------------------
+Appliances (w/o heat sources)   100.0 %
+Space Heating                    0.0 %
+Domestic Hot Water               0.0 %
+Cooking                          0.0 %
+--------------------------------------
+
