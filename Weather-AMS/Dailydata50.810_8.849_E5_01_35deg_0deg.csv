@@ -1,0 +1,40 @@
+Latitude (decimal degrees):	50.810
+Longitude (decimal degrees):	8.849
+Radiation database:	PVGIS-ERA5
+
+Results for: 	January
+Slope of plane (deg.):	 35
+Azimuth (orientation) of plane (deg.):	 0
+Time, UTC		G		Gb		Gd		Gc		Td
+00:30		0		0		0		0		0.4
+01:30		0		0		0		0		0.3
+02:30		0		0		0		0		0.2
+03:30		0		0		0		0		0.1
+04:30		0		0		0		0		0.0
+05:30		0		0		0		0		-0.1
+06:30		0		0		0		0		-0.1
+07:30		8		4		4		99		0.2
+08:30		83		43		39		329		0.5
+09:30		158		84		73		509		0.9
+10:30		218		119		96		618		1.6
+11:30		256		145		108		646		2.2
+12:30		242		139		101		589		2.9
+13:30		190		108		80		453		2.9
+14:30		117		68		48		252		2.8
+15:30		24		14		9		0		2.8
+16:30		0		0		0		0		2.2
+17:30		0		0		0		0		1.7
+18:30		0		0		0		0		1.1
+19:30		0		0		0		0		0.9
+20:30		0		0		0		0		0.8
+21:30		0		0		0		0		0.6
+22:30		0		0		0		0		0.5
+23:30		0		0		0		0		0.4
+
+G: Global irradiance on a fixed plane  (W/m2)
+Gb: Direct irradiance on a fixed plane  (W/m2)
+Gd: Diffuse irradiance on a fixed plane  (W/m2)
+Gc: Global clear-sky irradiance on a fixed plane  (W/m2)
+Td: Average daily temperature profile  (deg. C)
+
+PVGIS (c) European Communities, 2001-2017
