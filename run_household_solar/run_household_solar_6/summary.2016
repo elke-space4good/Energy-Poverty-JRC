@@ -1,0 +1,70 @@
+
+        Appliance          Consumption
+--------------------------------------
+         Computer          514.240 kWh
+               TV          515.251 kWh
+           Fridge          275.794 kWh
+            Light          558.316 kWh
+   Electric Stove          405.994 kWh
+     Tumble-Dryer          323.165 kWh
+ Circulation-Pump          227.130 kWh
+       Dishwasher          185.176 kWh
+  Washing-Machine          204.750 kWh
+           Vacuum          111.732 kWh
+--------------------------------------
+            Total         3321.548 kWh
+
+
+Photovoltaic energy
+--------------------------------------
+             Used         1149.817 kWh
+Fed into the grid         2194.052 kWh
+--------------------------------------
+            Total         3343.868 kWh
+
+
+Solar thermal energy
+--------------------------------------
+      Used for SH            0.000 kWh
+     Used for DHW            0.000 kWh
+           Unused            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Space Heating
+--------------------------------------
+              Oil            0.000 kWh
+              Gas            0.000 kWh
+      District H.            0.000 kWh
+        Heat-Pump            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Domestic Hot Water
+--------------------------------------
+              Oil            0.000 kWh
+              Gas            0.000 kWh
+      District H.            0.000 kWh
+        Heat-Pump            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Cooking
+--------------------------------------
+   Electric Stove          405.994 kWh
+        Gas Stove            0.000 kWh
+--------------------------------------
+            Total          405.994 kWh
+
+
+Overall Consumption
+--------------------------------------
+Appliances (w/o heat sources)   87.8 %
+Space Heating                    0.0 %
+Domestic Hot Water               0.0 %
+Cooking                         12.2 %
+--------------------------------------
+

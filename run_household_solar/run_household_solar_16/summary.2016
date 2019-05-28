@@ -1,0 +1,67 @@
+
+        Appliance          Consumption
+--------------------------------------
+         Computer          523.973 kWh
+               TV           61.475 kWh
+           Fridge          464.291 kWh
+            Light          264.248 kWh
+ Circulation-Pump          112.700 kWh
+       Dishwasher          118.845 kWh
+  Washing-Machine           61.950 kWh
+           Vacuum           12.725 kWh
+--------------------------------------
+            Total         1620.207 kWh
+
+
+Photovoltaic energy
+--------------------------------------
+             Used          499.023 kWh
+Fed into the grid         1143.172 kWh
+--------------------------------------
+            Total         1642.194 kWh
+
+
+Solar thermal energy
+--------------------------------------
+      Used for SH            0.000 kWh
+     Used for DHW            0.000 kWh
+           Unused            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Space Heating
+--------------------------------------
+              Oil            0.000 kWh
+              Gas            0.000 kWh
+      District H.            0.000 kWh
+        Heat-Pump            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Domestic Hot Water
+--------------------------------------
+              Oil            0.000 kWh
+              Gas            0.000 kWh
+      District H.            0.000 kWh
+        Heat-Pump            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Cooking
+--------------------------------------
+        Gas Stove            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Overall Consumption
+--------------------------------------
+Appliances (w/o heat sources)   100.0 %
+Space Heating                    0.0 %
+Domestic Hot Water               0.0 %
+Cooking                          0.0 %
+--------------------------------------
+
