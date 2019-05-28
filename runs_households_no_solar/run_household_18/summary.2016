@@ -1,0 +1,69 @@
+
+        Appliance          Consumption
+--------------------------------------
+         Computer          512.687 kWh
+               TV          247.178 kWh
+           Fridge          221.146 kWh
+            Light          238.190 kWh
+   Electric Stove          159.238 kWh
+ Circulation-Pump           85.559 kWh
+       Dishwasher          118.845 kWh
+  Washing-Machine           70.125 kWh
+           Vacuum           36.016 kWh
+--------------------------------------
+            Total         1688.984 kWh
+
+
+Photovoltaic energy
+--------------------------------------
+             Used            0.000 kWh
+Fed into the grid            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Solar thermal energy
+--------------------------------------
+      Used for SH            0.000 kWh
+     Used for DHW            0.000 kWh
+           Unused            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Space Heating
+--------------------------------------
+              Oil            0.000 kWh
+              Gas            0.000 kWh
+      District H.            0.000 kWh
+        Heat-Pump            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Domestic Hot Water
+--------------------------------------
+              Oil            0.000 kWh
+              Gas            0.000 kWh
+      District H.            0.000 kWh
+        Heat-Pump            0.000 kWh
+--------------------------------------
+            Total            0.000 kWh
+
+
+Cooking
+--------------------------------------
+   Electric Stove          159.238 kWh
+        Gas Stove            0.000 kWh
+--------------------------------------
+            Total          159.238 kWh
+
+
+Overall Consumption
+--------------------------------------
+Appliances (w/o heat sources)   90.6 %
+Space Heating                    0.0 %
+Domestic Hot Water               0.0 %
+Cooking                          9.4 %
+--------------------------------------
+

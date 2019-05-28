@@ -1,0 +1,65 @@
+# This log was created by ResLoadSIM version 3.3.6
+# Arguments: 1 380.00 (households days)
+
+size_distribution = [41.0, 34.0, 13.0, 9.0, 2.0, 1.0];
+retired_1 = 60.00;
+retired_2 = 25.00;
+min_area = [30.00, 40.00, 50.00, 70.00, 80.00, 80.00];
+max_area = [55.00, 60.00, 100.00, 120.00, 150.00, 150.00];
+set_temperature_day = 20.0;
+set_temperature_night = 10.0;
+reduce_heat = 100.0;
+heating_period_start_day = 1;
+heating_period_start_month = 9;
+heating_period_end_day = 1;
+heating_period_end_month = 6;
+min_init_laundry = 0;
+max_init_laundry = 10;
+second_fridge = [0.0, 0.0, 0.0, 0.0, 5.0, 13.0];
+second_tv = [0.0, 72.0, 90.0, 100.0, 100.0, 100.0];
+third_tv = [0.0, 0.0, 25.0, 30.0, 25.0, 70.0];
+second_computer = [0.0, 0.0, 0.0, 16.0, 35.0, 56.0];
+min_delta_laundry = [0.72, 1.28, 1.84, 2.40, 3.04, 3.52];
+max_delta_laundry = [1.08, 1.92, 2.76, 3.60, 4.56, 5.28];
+min_vacuum_interval = 3;
+max_vacuum_interval = 10;
+light_factor = [9.00, 8.40, 10.00, 10.50, 9.50, 9.35];
+rnd_wakeup = [25200.0, 3600.0, 10800.0, 36000.0];
+rnd_wakeup_weekend = [32400.0, 3600.0, 25200.0, 84000.0];
+rnd_wakeup_retired = [25200.0, 3600.0, 10800.0, 36000.0];
+rnd_bedtime = [79200.0, 7200.0];
+rnd_bedtime_weekend = [82800.0, 7200.0];
+rnd_bedtime_retired = [79200.0, 7200.0];
+at_home_param = [4800, 28800, 43200, 50, 4800, 28800, 43200];
+energy_class = [0.20, 0.50, 0.30, 1.00, 7.00, 12.00, 16.00, 22.00, 41.00];
+rnd_heat_source = [23.0, 32.0, 32.0, 9.0, 4.0];
+min_temperature_DHW = 38.0;
+max_temperature_DHW = 42.0;
+min_volume_handwash = 0.25;
+max_volume_handwash = 1.50;
+min_volume_shower = 12.00;
+max_volume_shower = 60.00;
+min_volume_bath = 110.00;
+max_volume_bath = 150.00;
+
+prevalence
+{
+  air_conditioner = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00];
+  boiler = [44.86, 40.11, 36.15, 30.97, 30.18, 28.82];
+  circulation_pump = [100.00, 100.00, 100.00, 100.00, 100.00, 100.00];
+  computer = [66.00, 80.00, 100.00, 100.00, 100.00, 100.00];
+  stove = [50.00, 50.00, 50.00, 50.00, 50.00, 50.00];
+  gas_stove = [75.00, 75.00, 75.00, 75.00, 75.00, 75.00];
+  dishwasher = [55.00, 87.00, 95.00, 90.00, 90.00, 98.00];
+  e_vehicle = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00];
+  freezer = [17.00, 40.00, 50.00, 55.00, 60.00, 65.00];
+  fridge = [100.00, 100.00, 100.00, 100.00, 100.00, 100.00];
+  heating = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00];
+  light = [100.00, 100.00, 100.00, 100.00, 100.00, 100.00];
+  solar_module = [0.00, 0.00, 0.00, 0.00, 0.00, 0.00];
+  tumble_dryer = [35.00, 55.00, 72.00, 80.00, 81.00, 80.00];
+  tv = [100.00, 100.00, 100.00, 100.00, 100.00, 100.00];
+  vacuum = [100.00, 100.00, 100.00, 100.00, 100.00, 100.00];
+  washing_machine = [100.00, 100.00, 100.00, 100.00, 100.00, 100.00];
+};
+
