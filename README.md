@@ -13,7 +13,7 @@ Data for energy demand per household from a simulation of the ResLoadSIM model. 
 **runs_households_solar**: energy demand by 20 different consumers WITH solar production. Power file has 1-min consumption data (column 1= time, column 2= consumption). Power-Solar Module file, contains last column with solar produced power that is used immediately by household. Gridbalance file is interesting as it has power values from solar production that can be shared with others (column 4=power into grid) useful value for the marketplace. 
 
 ## Weather data Amsterdam
-**Climate Noord Holland:** Dataset for the province of Noord-Holland produced by [Dutch PV Portal by TU Delft)(https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) based on measurements by the Koninklijk Nederlands Meteorologisch Instituut (KNMI).
+**Climate Noord Holland:** Dataset for the province of Noord-Holland produced by [Dutch PV Portal by TU Delft](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) based on measurements by the Koninklijk Nederlands Meteorologisch Instituut (KNMI).
 
 Climate data: a dataset of one year constructed from weather data averaged over a multitude of years (1991-2018), with a one hour time resolution. Displays the average hourly values of weather parameters: irradiation, temperature, wind, cloud, pressure, rainfall, irradiance, elevation, azimuth. The climate database is dynamically updated. Every hour, the hourly average of the real-time weather measurements is added to the climate database by making a weighted average with the climate parameter values in the historical database.
 
