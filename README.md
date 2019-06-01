@@ -17,7 +17,7 @@ Data for energy demand per household from a simulation of the ResLoadSIM model. 
 
 Climate data: a dataset of one year constructed from weather data averaged over a multitude of years (1991-2018), with a one hour time resolution. Displays the average hourly values of weather parameters: irradiation, temperature, wind, cloud, pressure, rainfall, irradiance, elevation, azimuth. The climate database is dynamically updated. Every hour, the hourly average of the real-time weather measurements is added to the climate database by making a weighted average with the climate parameter values in the historical database.
 
-Weather data: the weather of today and yesterday with a 10-minute time resolution. Look at the [Dutch PV website](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) to download the data relevant for today. 
+Weather data: the weather of today and yesterday with a 10-minute time resolution. Look at the [Dutch PV website](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) to download the data relevant for today.)
 
 ## PVGIS (solar weather data and solar energy rooftop potential)
 The European Commission developed the tool PVGIS acronym for Geographical Assessment of Solar Resource and Performance of Photovoltaic Technology. 
