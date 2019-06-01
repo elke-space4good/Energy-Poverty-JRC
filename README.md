@@ -19,15 +19,15 @@ Climate data: a dataset of one year constructed from weather data averaged over 
 
 Weather data: the weather of today and yesterday with a 10-minute time resolution. Look at the [Dutch PV website ](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) to download the data relevant for today. 
 
-####PVGIS (solar weather data and solar energy potential)
+#### PVGIS (solar weather data and solar energy rooftop potential)
 The European Commission developed the tool PVGIS acronym for Geographical Assessment of Solar Resource and Performance of Photovoltaic Technology. 
 
 Maps of solar resource and photovoltaic electricity potential: Go [here] (http://re.jrc.ec.europa.eu/pvg_download/map_index.html)
 Spatial solar radiation data: Go [here] (http://re.jrc.ec.europa.eu/pvg_download/data_download.html)
 Other simplified ways of accessing data at PVGIS website [here] (http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html)
 
-####Earth Observation Data
-EO-Browser by Sentinel Hub: the EO-Browser will contain Earth Observation data,. 
+#### Earth Observation Data
+EO-Browser by Sentinel Hub: a really easy/user-friendly way to download Earth Obervation data, play around, visualize it and explore it,  [here] (https://apps.sentinel-hub.com/eo-browser/) You need to set up an account.
 
 
 
