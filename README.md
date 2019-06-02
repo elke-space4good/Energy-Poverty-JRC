@@ -65,7 +65,7 @@ Useful for point 3-*potential*. The European Commission developed the tool PVGIS
 ### Earth Observation Data
 **EO-Browser by Sentinel Hub:** user-friendly way to download and visualize Earth Obervation data from Sentinel, Landsat, MODIS satellites. Go [here](https://apps.sentinel-hub.com/eo-browser/), you need to set up an account.
 
-**Triplesat:** 0.8 resolution satellite data for The Netherlands. Go [here] (https://www.satellietdataportaal.nl/)
+**Triplesat:** 0.8 resolution satellite data for The Netherlands. Go [here](https://www.satellietdataportaal.nl/)
 
 ### Gemeente Amsterdam Data (solar panel inventory and rooftop potential)
 Context for point 2-*inventory*. 'Extra' datasets by the Gemeente Amsterdam are shared for context. They are considered 'extra' as the marketplace doesn't need to upload an inventory of the existing solar panels in a city, this will instead be determined by the registered users (see requirements/comments point 2). 
