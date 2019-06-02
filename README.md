@@ -13,7 +13,7 @@ IMPORTANT UPDATE:
 
 The energy platform should meet the following requierements (from Technical Annex by JRC):
 1.	Marketplace: Enable and register transfers of energy between different private producers, other community consumers and people in need (energy poverty candidates).
-2.	Up-to-date inventory of renewable energy production units (solar, wind, etc.), the quality of the power supply.
+2.	Inventory: Up-to-date inventory of renewable energy production units (solar, wind, etc.), the quality of the power supply.
 3.	Potential: Estimate the potential for renewable energy production based on satellite technologies (solar energy).
 4.	Weather variations: Anticipate energy variations (surpluses, deficits) deriving from changing weather conditions affecting the renewable sources (e.g. solar photovoltaic, wind). 
 5.	Demand-based Advice: Advice and/or manage the demand based on those estimations (potential and variations) for the sake of optimizing the energy supply to those in need.
@@ -35,7 +35,7 @@ Regarding point 5, the computer shouldn’t automatically transfer energy betwee
 ## Datasets
 ### Runs_households solar and no-solar (consumption and production data)
 
-Useful for point 1 and 4. Data for energy demand (consumption) per household from a simulation of the ResLoadSIM model.  The data is a set of time resolved energy profiles for 20 different households in Amsterdam. It is provided as 1-minute consumption data for 1 year (2016). 
+Useful for point 1-marketplace and 4-variation forecast. Data for energy demand (consumption) per household from a simulation of the ResLoadSIM model.  The data is a set of time resolved energy profiles for 20 different households in Amsterdam. It is provided as 1-minute consumption data for 1 year (2016). 
 
 - **runs_households_no_solar:** energy demand by 20 different consumers. 
   - Power file: has 1-min consumtion data (column 1= time, column 2= consumption). 
@@ -48,14 +48,14 @@ Useful for point 1 and 4. Data for energy demand (consumption) per household fro
 See ResLoadSIM manual (pg. 11-14) for further explanation of the data.
 
 ### Climate/Weather data Amsterdam
-Useful for point 4. Climate and weather data produced by [Dutch PV Portal by TU Delft](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) based on measurements by the Koninklijk Nederlands Meteorologisch Instituut (KNMI).
+Useful for point 4-variation forecast. Climate and weather data produced by [Dutch PV Portal by TU Delft](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) based on measurements by the Koninklijk Nederlands Meteorologisch Instituut (KNMI).
 
 **Climate Data:** Climate dataset for Amsterdam (closest KNMI station in Schiphol). A dataset of one year constructed from weather data averaged over a multitude of years (1991-2018), with a one hour time resolution. Displays the average hourly values of weather parameters: irradiation, temperature, wind, cloud, pressure, rainfall, irradiance, elevation, azimuth. The climate database is dynamically updated. Every hour, the hourly average of the real-time weather measurements is added to the climate database by making a weighted average with the climate parameter values in the historical database.
 
 **Weather data**: the weather of today and yesterday with a 10-minute time resolution. Not provided in this repository. Head over to the [Dutch PV website](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) to download the data relevant for today.
 
 ### PVGIS  (solar weather data and solar energy potential)
-Useful for point 3. The European Commission developed the tool PVGIS (Geographical Assessment of Solar Resource and Performance of Photovoltaic Technology). It contains maps, interactive tools and data for solar energy. First get familiar with what is offered in the website [here](http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html).
+Useful for point 3-potential. The European Commission developed the tool PVGIS (Geographical Assessment of Solar Resource and Performance of Photovoltaic Technology). It contains maps, interactive tools and data for solar energy. First get familiar with what is offered in the website [here](http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html).
 
 **Maps photovoltaic electricity potential**: Go [here](http://re.jrc.ec.europa.eu/pvg_download/map_index.html).
 
@@ -63,9 +63,9 @@ Useful for point 3. The European Commission developed the tool PVGIS (Geographic
 
 
 ### Earth Observation Data
-EO-Browser by Sentinel Hub: user-friendly way to download and visualize Earth Obervation data from Sentinel, Landsat, MODIS satellites. Go [here](https://apps.sentinel-hub.com/eo-browser/), you need to set up an account.
+**EO-Browser by Sentinel Hub:** user-friendly way to download and visualize Earth Obervation data from Sentinel, Landsat, MODIS satellites. Go [here](https://apps.sentinel-hub.com/eo-browser/), you need to set up an account.
 
-Triplesat: 0.8 resolution satellite data for The Netherlands. Go [here] (https://www.satellietdataportaal.nl/)
+**Triplesat:** 0.8 resolution satellite data for The Netherlands. Go [here] (https://www.satellietdataportaal.nl/)
 
 ### Gemeente Amsterdam Data (solar panel inventory and rooftop potential)
 'Extra' datasets by the Gemeente Amsterdam are shared for context. They are considered 'extra' as the marketplace doesn't need to upload an inventory of the existing solar panels in a city, this will instead be determined by the registered users (see requirements/comments point 2). 
