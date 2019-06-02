@@ -1,11 +1,10 @@
 # Energy-Poverty-JRC
 Requirements and datasets for Energy Poverty Challenge from Space4Good and the European Commission JRC.
 
-Even though the energy marketplace platform should be created for a European geographical scope, for the purposes of the hackathon we will be using Amsterdam data. 
 
 ## Requirements
 
-IMPORTANT UPDATE: for the hackathon, we will focus on solar energy (NOT wind). Also, for the sake of simplicity batteries and storage systems will be disregarded (out of scope).
+IMPORTANT UPDATE: for the hackathon, we will focus on solar energy (NOT wind). Also, for the sake of simplicity batteries and storage systems will be disregarded (out of scope). Further, even though the energy marketplace platform should be created for a European geographical scope, for the purposes of the hackathon we will be using Amsterdam data. 
 
 The energy platform should meet the following requierements (from Technical Annex by JRC):
 1.	Marketplace: Enable and register transfers of energy between different private producers, other community consumers and people in need (energy poverty candidates).
