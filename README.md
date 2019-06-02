@@ -6,11 +6,9 @@ Requirements and datasets for Energy Poverty Challenge from Space4Good and the E
 
 IMPORTANT UPDATE: 
 
--For the hackathon we will focus on solar energy (NOT wind).
-
--Batteries and storage systems will be disregarded (out of scope for simplicity). 
-
--Even though the energy marketplace platform should be created for a European geographical scope, for the hackathon we will be using Amsterdam data. 
+*For the hackathon we will focus on solar energy (NOT wind).
+*Batteries and storage systems will be disregarded (out of scope for simplicity). 
+*Even though the energy marketplace platform should be created for a European geographical scope, for the hackathon we will be using Amsterdam data. 
 
 
 The energy platform should meet the following requierements (from Technical Annex by JRC):
