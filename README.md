@@ -38,11 +38,11 @@ Regarding point 5, the computer shouldn’t automatically transfer energy betwee
 Useful for point 1 and 4. Data for energy demand (consumption) per household from a simulation of the ResLoadSIM model.  The data is a set of time resolved energy profiles for 20 different households in Amsterdam. It is provided as 1-minute consumption data for 1 year (2016). 
 
 - **runs_households_no_solar:** energy demand by 20 different consumers. 
-  -mPower file: has 1-min consumtion data (column 1= time, column 2= consumption). 
+  - Power file: has 1-min consumtion data (column 1= time, column 2= consumption). 
 
 - **runs_households_solar**: energy demand by 20 different consumers WITH solar production. 
   - Power file: has 1-min consumption data (column 1= time, column 2= consumption). 
-  - Power-Solar-Module file: contains last column with solar produced power that is used immediately by household. This power production number is a theoretical number, coming from PVGIS (see section below) combining the solar radiation and an optimum installation of the solar panel (southward facing, with an inclination). 
+  - Power-Solar-Module file: last column is solar produced power that is used immediately by household. This power production number is a theoretical number, coming from PVGIS (see section below) combining the solar radiation and an optimum installation of the solar panel (southward facing, with an inclination). 
   - Gridbalance file: is interesting as it has power values from solar production (column 4=power into grid) that can be shared with others, thus  useful value for the marketplace. 
 
 See ResLoadSIM manual (pg. 11-14) for further explanation of the data.
@@ -63,14 +63,16 @@ Useful for point 3. The European Commission developed the tool PVGIS (Geographic
 
 
 ### Earth Observation Data
-EO-Browser by Sentinel Hub: a really easy/user-friendly way to download Earth Obervation data, play around, visualize it and explore it. Go [here](https://apps.sentinel-hub.com/eo-browser/), you need to set up an account.
+EO-Browser by Sentinel Hub: user-friendly way to download and visualize Earth Obervation data from Sentinel, Landsat, MODIS satellites. Go [here](https://apps.sentinel-hub.com/eo-browser/), you need to set up an account.
+
+Triplesat: 0.8 resolution satellite data for The Netherlands. Go [here] (https://www.satellietdataportaal.nl/)
 
 ### Gemeente Amsterdam Data (solar panel inventory and rooftop potential)
 'Extra' datasets by the Gemeente Amsterdam are shared for context. They are considered 'extra' as the marketplace doesn't need to upload an inventory of the existing solar panels in a city, this will instead be determined by the registered users (see requirements/comments point 2). 
 
-*Solar panels in Amsterdam:* Go [here](https://maps.amsterdam.nl/zonnepanelen/?LANG=en).
+**Solar panels in Amsterdam:** Go [here](https://maps.amsterdam.nl/zonnepanelen/?LANG=en).
 
-**Rooftop potential Amsterdam:* 0.5 resolution data. Go [here](https://www.zonatlas.nl/amsterdam/).
+**Rooftop potential Amsterdam:** 0.5 resolution data. Go [here](https://www.zonatlas.nl/amsterdam/).
 
 
 
