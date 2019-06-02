@@ -4,7 +4,10 @@ Requirements and datasets for Energy Poverty Challenge from Space4Good and the E
 
 ## Requirements
 
-IMPORTANT UPDATE: for the hackathon, we will focus on solar energy (NOT wind). Also, for the sake of simplicity batteries and storage systems will be disregarded (out of scope). Further, even though the energy marketplace platform should be created for a European geographical scope, for the purposes of the hackathon we will be using Amsterdam data. 
+IMPORTANT UPDATE: 
+-For the hackathon we will focus on solar energy (NOT wind).
+-Batteries and storage systems will be disregarded (out of scope for simplicity). 
+-Even though the energy marketplace platform should be created for a European geographical scope, for the hackathon we will be using Amsterdam data. 
 
 The energy platform should meet the following requierements (from Technical Annex by JRC):
 1.	Marketplace: Enable and register transfers of energy between different private producers, other community consumers and people in need (energy poverty candidates).
@@ -14,17 +17,21 @@ The energy platform should meet the following requierements (from Technical Anne
 5.	Demand-based Advice: Advice and/or manage the demand based on those estimations (potential and variations) for the sake of optimizing the energy supply to those in need.
 
 **Comments:**
+
 Regarding point 1, Energy poverty candidates will register as such in the platform (check a box). For now, don’t focus on verification of who qualifies as an energy poverty canditate. 
 
 Regarding point 2, the platform will count the # of solar panels based on the users (producers) registered to the platform. No pre-existing datasets of current solar panels in a city will be included to the platform. 
 
 Regarding point 3, the theoretical solar production potential will serve as a reference point/benchmark to understand the marketplace dynamics i.e. how the market moves in terms of prices and energy security. This potential can already be provided by existing datasets (see PVGIS) so no calculation needed, just integration and connection with marketplace and forecast of energy variations.
 
-Point 4 is the forecast of energy variations. Machine learning algorithms that detect how weather conditions affect the production and consumption of energy. The forecast of actual energy produced will then be fed to the theoretical production potential (point 3), so the algorithm learns from it. 
+Point 4 is the forecast of energy variations. Machine learning algorithms that detect how weather conditions affect the production and consumption of energy. The forecast of actual energy produced will then be fed to the theoretical production potential (point 3), so the algorithm learns from it.
+
+Regarding point 5, the computer shouldn’t automatically transfer energy between prosumers. Instead, recommendations should be made to users (producers) and platform admin regarding: Who to distribute to? When can the transfer can happen (holidays, for cooking needs @6pm)? Energy poverty donations when there is energy surplus? 
+
 
 
 ## Datasets
-### Runs_households solar and no-solar
+### Runs_households solar and no-solar (consumption and production data)
 
 Data for energy demand (consumption) per household from a simulation of the ResLoadSIM model.  The data is a set of time resolved energy profiles for 20 different households in Amsterdam. It is provided as 1-minute consumption data for 1 year (2016). 
 
@@ -41,18 +48,21 @@ Climate and weather data produced by [Dutch PV Portal by TU Delft](https://www.t
 
 **Weather data**: the weather of today and yesterday with a 10-minute time resolution. Not provided in this repository. Head over to the [Dutch PV website](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) to download the data relevant for today.
 
-### PVGIS (solar weather data and solar energy rooftop potential)
+### PVGIS  (solar weather data and solar energy potential)
 The European Commission developed the tool PVGIS (Geographical Assessment of Solar Resource and Performance of Photovoltaic Technology). It contains maps, interactive tools and data for solar energy. Get familiar with what is offered in the website [here] (http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html) (on the web-browser you can only download data for one particular location), then look at links below for European regional maps and solar data.
 
 **Maps photovoltaic electricity potential**: Go [here](http://re.jrc.ec.europa.eu/pvg_download/map_index.html)
 **Spatial solar radiation data (from remote sensing sources)**: Go [here](http://re.jrc.ec.europa.eu/pvg_download/data_download.html)
 Other simplified ways of accessing data at PVGIS website [here](http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html)
 
-###Amsterdam Data
-
 
 ### Earth Observation Data
-EO-Browser by Sentinel Hub: a really easy/user-friendly way to download Earth Obervation data, play around, visualize it and explore it,  [here](https://apps.sentinel-hub.com/eo-browser/) You need to set up an account.
+EO-Browser by Sentinel Hub: a really easy/user-friendly way to download Earth Obervation data, play around, visualize it and explore it. [Open here](https://apps.sentinel-hub.com/eo-browser/), you need to set up an account.
+
+### Gemeente Amsterdam Data (solar panel inventory and rooftop potential)
+Here some datasets by the Gemeente Amsterdam are shared for context. The marketplace doesn't need to have an inventory of the existing solar panels in a city (see requirements/comments point 2) so this data is not needed to be uploaded to the marketplace, it's 'extra'. 
+Solar panels in Amsterdam: Go [here] (https://maps.amsterdam.nl/zonnepanelen/?LANG=en)
+Rooftop potential Amsterdam: 0.5 resolution data. Go [here] (https://www.zonatlas.nl/amsterdam/)
 
 
 
