@@ -35,7 +35,7 @@ Regarding point 5, the computer shouldn’t automatically transfer energy betwee
 ## Datasets
 ### Runs_households solar and no-solar (consumption and production data)
 
-Useful for point 1-marketplace and 4-variation forecast. Data for energy demand (consumption) per household from a simulation of the ResLoadSIM model.  The data is a set of time resolved energy profiles for 20 different households in Amsterdam. It is provided as 1-minute consumption data for 1 year (2016). 
+Useful for point 1-*marketplace* and 4-*weather variations*. Data for energy demand (consumption) per household from a simulation of the ResLoadSIM model.  The data is a set of time resolved energy profiles for 20 different households in Amsterdam. It is provided as 1-minute consumption data for 1 year (2016). 
 
 - **runs_households_no_solar:** energy demand by 20 different consumers. 
   - Power file: has 1-min consumtion data (column 1= time, column 2= consumption). 
@@ -48,14 +48,14 @@ Useful for point 1-marketplace and 4-variation forecast. Data for energy demand 
 See ResLoadSIM manual (pg. 11-14) for further explanation of the data.
 
 ### Climate/Weather data Amsterdam
-Useful for point 4-variation forecast. Climate and weather data produced by [Dutch PV Portal by TU Delft](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) based on measurements by the Koninklijk Nederlands Meteorologisch Instituut (KNMI).
+Useful for point 4-*weather variations*. Climate and weather data produced by [Dutch PV Portal by TU Delft](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) based on measurements by the Koninklijk Nederlands Meteorologisch Instituut (KNMI).
 
 **Climate Data:** Climate dataset for Amsterdam (closest KNMI station in Schiphol). A dataset of one year constructed from weather data averaged over a multitude of years (1991-2018), with a one hour time resolution. Displays the average hourly values of weather parameters: irradiation, temperature, wind, cloud, pressure, rainfall, irradiance, elevation, azimuth. The climate database is dynamically updated. Every hour, the hourly average of the real-time weather measurements is added to the climate database by making a weighted average with the climate parameter values in the historical database.
 
 **Weather data**: the weather of today and yesterday with a 10-minute time resolution. Not provided in this repository. Head over to the [Dutch PV website](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) to download the data relevant for today.
 
 ### PVGIS  (solar weather data and solar energy potential)
-Useful for point 3-potential. The European Commission developed the tool PVGIS (Geographical Assessment of Solar Resource and Performance of Photovoltaic Technology). It contains maps, interactive tools and data for solar energy. First get familiar with what is offered in the website [here](http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html).
+Useful for point 3-*potential*. The European Commission developed the tool PVGIS (Geographical Assessment of Solar Resource and Performance of Photovoltaic Technology). It contains maps, interactive tools and data for solar energy. First get familiar with what is offered in the website [here](http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html).
 
 **Maps photovoltaic electricity potential**: Go [here](http://re.jrc.ec.europa.eu/pvg_download/map_index.html).
 
@@ -68,7 +68,7 @@ Useful for point 3-potential. The European Commission developed the tool PVGIS (
 **Triplesat:** 0.8 resolution satellite data for The Netherlands. Go [here] (https://www.satellietdataportaal.nl/)
 
 ### Gemeente Amsterdam Data (solar panel inventory and rooftop potential)
-'Extra' datasets by the Gemeente Amsterdam are shared for context. They are considered 'extra' as the marketplace doesn't need to upload an inventory of the existing solar panels in a city, this will instead be determined by the registered users (see requirements/comments point 2). 
+Context for point 2-*inventory*. 'Extra' datasets by the Gemeente Amsterdam are shared for context. They are considered 'extra' as the marketplace doesn't need to upload an inventory of the existing solar panels in a city, this will instead be determined by the registered users (see requirements/comments point 2). 
 
 **Solar panels in Amsterdam:** Go [here](https://maps.amsterdam.nl/zonnepanelen/?LANG=en).
 
