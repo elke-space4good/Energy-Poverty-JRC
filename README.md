@@ -3,7 +3,7 @@ Requirements and datasets for Energy Poverty Challenge from Space4Good and the E
 
 Even though the energy marketplace platform should be created for a European geographical scope, for the purposes of the hackathon we will be using Amsterdam data. 
 
-##Requirements
+## Requirements
 
 IMPORTANT UPDATE: for the hackathon, we will focus on solar energy (NOT wind). Also, for the sake of simplicity batteries and storage systems will be disregarded (out of scope).
 
@@ -24,7 +24,7 @@ Regarding point 3, the theoretical solar production potential will serve as a re
 Point 4 is the forecast of energy variations. Machine learning algorithms that detect how weather conditions affect the production and consumption of energy. The forecast of actual energy produced will then be fed to the theoretical production potential (point 3), so the algorithm learns from it. 
 
 
-##Datasets
+## Datasets
 ### Runs_households solar and no-solar
 
 Data for energy demand (consumption) per household from a simulation of the ResLoadSIM model.  The data is a set of time resolved energy profiles for 20 different households in Amsterdam. It is provided as 1-minute consumption data for 1 year (2016). 
