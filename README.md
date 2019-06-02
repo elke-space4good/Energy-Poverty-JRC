@@ -68,7 +68,7 @@ Useful for point 3-*potential*. The European Commission developed the tool PVGIS
 **Triplesat:** 0.8 resolution satellite data for The Netherlands. Go [here](https://www.satellietdataportaal.nl/)
 
 ### Gemeente Amsterdam Data (solar panel inventory and rooftop potential)
-Context for point 2-*inventory*. 'Extra' datasets by the Gemeente Amsterdam are shared for context. They are considered 'extra' as the marketplace doesn't need to upload an inventory of the existing solar panels in a city, this will instead be determined by the registered users (see requirements/comments point 2). 
+Context for point 2-*inventory* and point 3-*potential*. 'Extra' datasets by the Gemeente Amsterdam are shared for context. They are considered 'extra' as the marketplace doesn't need to upload an inventory of the existing solar panels in a city, this will instead be determined by the registered users (see requirements/comments point 2). 
 
 **Solar panels in Amsterdam:** Go [here](https://maps.amsterdam.nl/zonnepanelen/?LANG=en).
 
