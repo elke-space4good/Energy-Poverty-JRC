@@ -5,6 +5,7 @@ Requirements and datasets for Energy Poverty Challenge from Space4Good and the E
 ## Requirements
 
 IMPORTANT UPDATE: 
+
 -For the hackathon we will focus on solar energy (NOT wind).
 -Batteries and storage systems will be disregarded (out of scope for simplicity). 
 -Even though the energy marketplace platform should be created for a European geographical scope, for the hackathon we will be using Amsterdam data. 
@@ -49,9 +50,10 @@ Climate and weather data produced by [Dutch PV Portal by TU Delft](https://www.t
 **Weather data**: the weather of today and yesterday with a 10-minute time resolution. Not provided in this repository. Head over to the [Dutch PV website](https://www.tudelft.nl/en/eemcs/the-faculty/departments/electrical-sustainable-energy/photovoltaic-materials-and-devices/dutch-pv-portal/) to download the data relevant for today.
 
 ### PVGIS  (solar weather data and solar energy potential)
-The European Commission developed the tool PVGIS (Geographical Assessment of Solar Resource and Performance of Photovoltaic Technology). It contains maps, interactive tools and data for solar energy. Get familiar with what is offered in the website [here] (http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html) (on the web-browser you can only download data for one particular location), then look at links below for European regional maps and solar data.
+The European Commission developed the tool PVGIS (Geographical Assessment of Solar Resource and Performance of Photovoltaic Technology). It contains maps, interactive tools and data for solar energy. Get familiar with what is offered in the website [here] (http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html), then look at links below for European regional maps and solar data.
 
 **Maps photovoltaic electricity potential**: Go [here](http://re.jrc.ec.europa.eu/pvg_download/map_index.html)
+
 **Spatial solar radiation data (from remote sensing sources)**: Go [here](http://re.jrc.ec.europa.eu/pvg_download/data_download.html)
 Other simplified ways of accessing data at PVGIS website [here](http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html)
 
@@ -60,8 +62,10 @@ Other simplified ways of accessing data at PVGIS website [here](http://re.jrc.ec
 EO-Browser by Sentinel Hub: a really easy/user-friendly way to download Earth Obervation data, play around, visualize it and explore it. [Open here](https://apps.sentinel-hub.com/eo-browser/), you need to set up an account.
 
 ### Gemeente Amsterdam Data (solar panel inventory and rooftop potential)
-Here some datasets by the Gemeente Amsterdam are shared for context. The marketplace doesn't need to have an inventory of the existing solar panels in a city (see requirements/comments point 2) so this data is not needed to be uploaded to the marketplace, it's 'extra'. 
+'Extra' datasets by the Gemeente Amsterdam are shared for context. They are considered 'extra' as the marketplace doesn't need to upload an inventory of the existing solar panels in a city, this will instead be determined by the registered users (see requirements/comments point 2). 
+
 Solar panels in Amsterdam: Go [here] (https://maps.amsterdam.nl/zonnepanelen/?LANG=en)
+
 Rooftop potential Amsterdam: 0.5 resolution data. Go [here] (https://www.zonatlas.nl/amsterdam/)
 
 
