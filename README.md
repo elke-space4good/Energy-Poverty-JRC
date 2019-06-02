@@ -57,9 +57,9 @@ Useful for point 4-*weather variations*. Climate and weather data produced by [D
 ### PVGIS  (solar weather data and solar energy potential)
 Useful for point 3-*potential*. The European Commission developed the tool PVGIS (Geographical Assessment of Solar Resource and Performance of Photovoltaic Technology). It contains maps, interactive tools and data for solar energy. First get familiar with what is offered in the website [here](http://re.jrc.ec.europa.eu/pvg_static/en/intro_tools.html).
 
-**Maps photovoltaic electricity potential**: Go [here](http://re.jrc.ec.europa.eu/pvg_download/map_index.html).
+**Maps photovoltaic electricity potential**: 500m resolution map for solar energy potential. Go [here](http://re.jrc.ec.europa.eu/pvg_download/map_index.html).
 
-**Spatial solar radiation data (from remote sensing sources)**: Go [here](http://re.jrc.ec.europa.eu/pvg_download/data_download.html).
+**Spatial solar radiation data**: Several solar radiation datasets from different remote sensing data sources. Go [here](http://re.jrc.ec.europa.eu/pvg_download/data_download.html).
 
 
 ### Earth Observation Data
